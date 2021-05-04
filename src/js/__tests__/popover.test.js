@@ -15,7 +15,7 @@ test('should add class to elem', () => {
 
 test('should remove and add visibility when clicked', () => {
   const span = document.getElementById('test_span');
-  const pop = document.querySelector('.popover')
+  const pop = document.querySelector('.popover');
   span.click();
   expect(pop.classList).toContain('visible');
   span.click();
